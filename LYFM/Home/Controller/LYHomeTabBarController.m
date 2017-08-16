@@ -7,6 +7,7 @@
 //
 
 #import "LYHomeTabBarController.h"
+#import "LYNavigationController.h"
 
 @interface LYHomeTabBarController ()
 
@@ -16,9 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
-//    self.tabBar = [test alloc] inni
+    
     
 }
 

@@ -8,6 +8,8 @@
 
 #import "LYHomeTabBarController.h"
 #import "LYNavigationController.h"
+#import "LYTabBar.h"
+
 
 @interface LYHomeTabBarController ()
 
@@ -18,8 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    
+    LYTabBar *tabBar = [[LYTabBar alloc] init];
+    [self setValue:tabBar forKeyPath:@"tabBar"];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="74" height="62"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_normal" translatesAutoresizingMaskIntoConstraints="NO" id="B5m-kQ-egK">
+                    <rect key="frame" x="0.0" y="0.0" width="74" height="62"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_playshadow" translatesAutoresizingMaskIntoConstraints="NO" id="dd0-Xn-Zvk">
+                    <rect key="frame" x="0.0" y="0.0" width="74" height="62"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="wuV-bp-KTn">
+                    <rect key="frame" x="0.0" y="0.0" width="74" height="62"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="epr-Ri-8AQ">
+                    <rect key="frame" x="15.5" y="9.5" width="43" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="43" id="ChQ-VK-Lgu"/>
+                        <constraint firstAttribute="height" constant="43" id="nUN-XQ-ful"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2f-2U-5am">
+                    <rect key="frame" x="16" y="10" width="43" height="43"/>
+                    <state key="normal" image="tabbar_np_play"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wuV-bp-KTn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0Cg-5C-XNS"/>
+                <constraint firstAttribute="trailing" secondItem="wuV-bp-KTn" secondAttribute="trailing" id="0G4-2K-272"/>
+                <constraint firstItem="epr-Ri-8AQ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="4nW-0X-nVy"/>
+                <constraint firstItem="Z2f-2U-5am" firstAttribute="centerX" secondItem="epr-Ri-8AQ" secondAttribute="centerX" id="Clh-2A-JIj"/>
+                <constraint firstItem="dd0-Xn-Zvk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="HoX-8L-2gd"/>
+                <constraint firstAttribute="trailing" secondItem="B5m-kQ-egK" secondAttribute="trailing" id="Uax-oF-xPl"/>
+                <constraint firstItem="epr-Ri-8AQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="V8I-77-chF"/>
+                <constraint firstItem="Z2f-2U-5am" firstAttribute="height" secondItem="epr-Ri-8AQ" secondAttribute="height" id="XIY-SX-jIe"/>
+                <constraint firstAttribute="bottom" secondItem="B5m-kQ-egK" secondAttribute="bottom" id="dPx-d6-bHM"/>
+                <constraint firstItem="Z2f-2U-5am" firstAttribute="centerY" secondItem="epr-Ri-8AQ" secondAttribute="centerY" id="ftD-kp-yFd"/>
+                <constraint firstAttribute="trailing" secondItem="dd0-Xn-Zvk" secondAttribute="trailing" id="hRW-S0-1hB"/>
+                <constraint firstAttribute="bottom" secondItem="dd0-Xn-Zvk" secondAttribute="bottom" id="izm-Ai-1NW"/>
+                <constraint firstItem="B5m-kQ-egK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mlZ-GJ-trp"/>
+                <constraint firstAttribute="bottom" secondItem="wuV-bp-KTn" secondAttribute="bottom" id="mtn-cb-ccr"/>
+                <constraint firstItem="Z2f-2U-5am" firstAttribute="width" secondItem="epr-Ri-8AQ" secondAttribute="width" id="qGA-Sq-odV"/>
+                <constraint firstItem="dd0-Xn-Zvk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ttw-Pe-qpI"/>
+                <constraint firstItem="B5m-kQ-egK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yZc-LD-lXw"/>
+                <constraint firstItem="wuV-bp-KTn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zk5-aM-gqC"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-117" y="-248"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tabbar_np_normal" width="65" height="65"/>
+        <image name="tabbar_np_play" width="50" height="50"/>
+        <image name="tabbar_np_playshadow" width="50" height="50"/>
+        <image name="tabbar_np_shadow" width="75" height="65"/>
+    </resources>
+</document>

@@ -19,6 +19,9 @@
 		0E15E50F1F4329F60071FD8B /* LYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E15E50E1F4329F60071FD8B /* LYMineViewController.m */; };
 		0E15E5121F432A660071FD8B /* LYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E15E5111F432A660071FD8B /* LYTabBar.m */; };
 		0E2C28181F447070009589E1 /* LYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C28171F447070009589E1 /* LYNavigationController.m */; };
+		0E2C281E1F45CA30009589E1 /* LYPlusButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2C281D1F45CA30009589E1 /* LYPlusButton.xib */; };
+		0E2C28211F45CEA9009589E1 /* LYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C28201F45CEA9009589E1 /* LYConst.m */; };
+		0E2C28251F45DEB9009589E1 /* UIView+LYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C28241F45DEB9009589E1 /* UIView+LYView.m */; };
 		5224A92DA13093E08EB26FFA /* libPods-LYFM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B97FCB829E3B716B095E8E32 /* libPods-LYFM.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,11 @@
 		0E15E5111F432A660071FD8B /* LYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LYTabBar.m; path = ../Home/Controller/LYTabBar.m; sourceTree = "<group>"; };
 		0E2C28161F447070009589E1 /* LYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNavigationController.h; sourceTree = "<group>"; };
 		0E2C28171F447070009589E1 /* LYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYNavigationController.m; sourceTree = "<group>"; };
+		0E2C281D1F45CA30009589E1 /* LYPlusButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYPlusButton.xib; sourceTree = "<group>"; };
+		0E2C281F1F45CEA9009589E1 /* LYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYConst.h; sourceTree = "<group>"; };
+		0E2C28201F45CEA9009589E1 /* LYConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYConst.m; sourceTree = "<group>"; };
+		0E2C28231F45DEB9009589E1 /* UIView+LYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYView.h"; sourceTree = "<group>"; };
+		0E2C28241F45DEB9009589E1 /* UIView+LYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYView.m"; sourceTree = "<group>"; };
 		5063B83A0CD0AEC3C0B28545 /* Pods-LYFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYFM/Pods-LYFM.release.xcconfig"; sourceTree = "<group>"; };
 		60E9A211F1265B02AE29C1A9 /* Pods-LYFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYFM/Pods-LYFM.debug.xcconfig"; sourceTree = "<group>"; };
 		B97FCB829E3B716B095E8E32 /* libPods-LYFM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYFM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +99,7 @@
 				0E15E4EE1F4323FF0071FD8B /* Listen */,
 				0E15E4EC1F4323F20071FD8B /* Discover */,
 				0E15E4F01F4324070071FD8B /* Mine */,
+				0E2C28221F45DEA1009589E1 /* Category */,
 				0E15E4DD1F4322840071FD8B /* Main.storyboard */,
 				0E15E4D41F4322840071FD8B /* Supporting Files */,
 			);
@@ -111,6 +120,8 @@
 		0E15E4EB1F4323F20071FD8B /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				0E2C281F1F45CEA9009589E1 /* LYConst.h */,
+				0E2C28201F45CEA9009589E1 /* LYConst.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -153,6 +164,7 @@
 			children = (
 				0E15E5101F432A660071FD8B /* LYTabBar.h */,
 				0E15E5111F432A660071FD8B /* LYTabBar.m */,
+				0E2C281D1F45CA30009589E1 /* LYPlusButton.xib */,
 				0E15E5011F4329A70071FD8B /* LYHomeTabBarController.h */,
 				0E15E5021F4329A70071FD8B /* LYHomeTabBarController.m */,
 				0E2C28161F447070009589E1 /* LYNavigationController.h */,
@@ -292,6 +304,15 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		0E2C28221F45DEA1009589E1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0E2C28231F45DEB9009589E1 /* UIView+LYView.h */,
+				0E2C28241F45DEB9009589E1 /* UIView+LYView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		9B6D14761B1996638D52C740 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,6 +395,7 @@
 			files = (
 				0E15E4E41F4322840071FD8B /* LaunchScreen.storyboard in Resources */,
 				0E15E4E11F4322840071FD8B /* Assets.xcassets in Resources */,
+				0E2C281E1F45CA30009589E1 /* LYPlusButton.xib in Resources */,
 				0E15E4DF1F4322840071FD8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,9 +457,11 @@
 			files = (
 				0E15E50C1F4329ED0071FD8B /* LYDiscoverViewController.m in Sources */,
 				0E15E5091F4329E00071FD8B /* LYListenViewController.m in Sources */,
+				0E2C28211F45CEA9009589E1 /* LYConst.m in Sources */,
 				0E15E4D91F4322840071FD8B /* AppDelegate.m in Sources */,
 				0E15E5031F4329A70071FD8B /* LYHomeTabBarController.m in Sources */,
 				0E15E5061F4329D30071FD8B /* LYHomeViewController.m in Sources */,
+				0E2C28251F45DEB9009589E1 /* UIView+LYView.m in Sources */,
 				0E15E4D61F4322840071FD8B /* main.m in Sources */,
 				0E2C28181F447070009589E1 /* LYNavigationController.m in Sources */,
 				0E15E5121F432A660071FD8B /* LYTabBar.m in Sources */,

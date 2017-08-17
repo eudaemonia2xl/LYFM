@@ -105,11 +105,11 @@
             </objects>
             <point key="canvasLocation" x="1402.4000000000001" y="544.67766116941539"/>
         </scene>
-        <!--Item 1-->
+        <!--Navigation Controller-->
         <scene sceneID="iiz-Vs-Qgq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PzP-7X-aIf" customClass="LYNavigationController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="NVk-RO-gI5"/>
+                    <tabBarItem key="tabBarItem" title="" image="tabbar_icon_homepage_normal" selectedImage="tabbar_icon_homepage_pressed" id="NVk-RO-gI5"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Pcp-zz-tWu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -124,11 +124,11 @@
             </objects>
             <point key="canvasLocation" x="124" y="-592.35382308845578"/>
         </scene>
-        <!--Item 2-->
+        <!--Navigation Controller-->
         <scene sceneID="GZK-ai-1gk">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9BT-YD-Wu8" customClass="LYNavigationController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="6mg-SQ-B3z"/>
+                    <tabBarItem key="tabBarItem" title="" image="tabbar_icon_hear_normal" selectedImage="tabbar_icon_hear_pressed" id="6mg-SQ-B3z"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3WD-go-qTp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -143,11 +143,11 @@
             </objects>
             <point key="canvasLocation" x="2002.4000000000001" y="62.518740629685162"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="Lc1-dk-VdY">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fVk-ep-noR" customClass="LYNavigationController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ZAi-YV-ivD"/>
+                    <tabBarItem key="tabBarItem" title="" image="tabbar_icon_find_normal" selectedImage="tabbar_icon_find_pressed" id="ZAi-YV-ivD"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ga2-7s-eyS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -162,11 +162,11 @@
             </objects>
             <point key="canvasLocation" x="463.19999999999999" y="544.67766116941539"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="bIt-h1-Ygf">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FuJ-aO-qhc" customClass="LYNavigationController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="nKt-pN-R5l"/>
+                    <tabBarItem key="tabBarItem" title="" image="tabbar_icon_my_normal2" selectedImage="tabbar_icon_my_pressed2" id="nKt-pN-R5l"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="7hA-R9-JYL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -182,4 +182,14 @@
             <point key="canvasLocation" x="-1559" y="545"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tabbar_icon_find_normal" width="33" height="36"/>
+        <image name="tabbar_icon_find_pressed" width="33" height="36"/>
+        <image name="tabbar_icon_hear_normal" width="33" height="36"/>
+        <image name="tabbar_icon_hear_pressed" width="33" height="36"/>
+        <image name="tabbar_icon_homepage_normal" width="33" height="36"/>
+        <image name="tabbar_icon_homepage_pressed" width="33" height="36"/>
+        <image name="tabbar_icon_my_normal2" width="33" height="36"/>
+        <image name="tabbar_icon_my_pressed2" width="33" height="36"/>
+    </resources>
 </document>

@@ -54,7 +54,6 @@
             index++;
             
             view.frame = CGRectMake(itemX, itemY, itemW, itemH);
-
         }
     }
 }

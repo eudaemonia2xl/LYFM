@@ -15,28 +15,48 @@
             <rect key="frame" x="0.0" y="0.0" width="74" height="62"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_normal" translatesAutoresizingMaskIntoConstraints="NO" id="B5m-kQ-egK">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_normal" translatesAutoresizingMaskIntoConstraints="NO" id="B5m-kQ-egK">
                     <rect key="frame" x="0.0" y="0.0" width="74" height="62"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="32"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_playshadow" translatesAutoresizingMaskIntoConstraints="NO" id="dd0-Xn-Zvk">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_playshadow" translatesAutoresizingMaskIntoConstraints="NO" id="dd0-Xn-Zvk">
                     <rect key="frame" x="0.0" y="0.0" width="74" height="62"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="32"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="wuV-bp-KTn">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="wuV-bp-KTn">
                     <rect key="frame" x="0.0" y="0.0" width="74" height="62"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="32"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="epr-Ri-8AQ">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="psb" translatesAutoresizingMaskIntoConstraints="NO" id="epr-Ri-8AQ">
                     <rect key="frame" x="15.5" y="9.5" width="43" height="43"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="43" id="ChQ-VK-Lgu"/>
                         <constraint firstAttribute="height" constant="43" id="nUN-XQ-ful"/>
                     </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2f-2U-5am">
                     <rect key="frame" x="16" y="10" width="43" height="43"/>
                     <state key="normal" image="tabbar_np_play"/>
                 </button>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="wuV-bp-KTn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0Cg-5C-XNS"/>
                 <constraint firstAttribute="trailing" secondItem="wuV-bp-KTn" secondAttribute="trailing" id="0G4-2K-272"/>
@@ -59,10 +79,16 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="32"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
             <point key="canvasLocation" x="-117" y="-248"/>
         </view>
     </objects>
     <resources>
+        <image name="psb" width="220" height="220"/>
         <image name="tabbar_np_normal" width="65" height="65"/>
         <image name="tabbar_np_play" width="50" height="50"/>
         <image name="tabbar_np_playshadow" width="50" height="50"/>
